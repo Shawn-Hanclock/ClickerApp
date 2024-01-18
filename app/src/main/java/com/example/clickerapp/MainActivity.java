@@ -16,13 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //add resources being loaded
-        clicksTv = (TextView) findViewById(R.id.clickTotal);
-        clickBtn = (Button) findViewById(R.id.clickButton);
+        clicksTv = findViewById(R.id.clickTotal);
+        clickBtn = findViewById(R.id.clickButton);
     }
 
     public int clicks = 0; //click counter variable
     public void btnClick(View view) {
         clicks++;
-        clicksTv.setText(clicks+"");
+        String clickText = clicks + " ";
+        clicksTv.setText(clickText);
     }
 }
