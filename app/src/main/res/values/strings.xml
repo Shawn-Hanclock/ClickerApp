@@ -2,8 +2,8 @@
     <string name="app_name">ClickerApp</string>
     <string name="image_abt">AI Duck</string>
     <string name="click_btn">CLICK!</string>
-    <string name="bot_tv">please click, thank you.</string>
-    <string name="top_tv">AI duck needs your help.</string>
-    <string name="label_tv">Total Clicks:</string>
+    <string name="bot_tv">please click,\n thank you.</string>
+    <string name="top_tv">AI duck \nneeds your help.</string>
+    <string name="label_tv"><pre>Total Clicks: </pre></string>
     <string name="count_tv">0</string>
 </resources>
