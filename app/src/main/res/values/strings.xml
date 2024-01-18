@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ClickerApp</string>
+    <string name="btnText">CLICK!</string>
+    <string name="bot">please click, thank you.</string>
+    <string name="top">AI duck needs your help.</string>
 </resources>
