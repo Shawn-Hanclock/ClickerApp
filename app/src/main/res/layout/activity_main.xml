@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:src="@drawable/ai_duck"
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,8 +22,8 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/clickButton"
 
+        android:onClick="btnClick"
         android:layout_width="96dp"
-
         android:layout_height="52dp"
         android:background="@drawable/clicker_button"
         android:text="@string/click_btn"
